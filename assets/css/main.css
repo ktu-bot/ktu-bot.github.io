@@ -2211,7 +2211,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #e44c65;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 300;
@@ -3374,7 +3374,7 @@ input, select, textarea {
 	}
 
 	#header {
-		background: rgba(39, 40, 51, 0.965);
+		background: #e44c65;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 		cursor: default;
 		height: 3.5em;
@@ -3385,6 +3385,9 @@ input, select, textarea {
 		width: 100%;
 		z-index: 100;
 	}
+	.sticky + .content {
+		padding-top: 102px;
+	  }
 
 		#header h1 {
 			height: inherit;
@@ -3892,7 +3895,7 @@ input, select, textarea {
 			}
 
 				#titleBar .title {
-					color: #ffffff;
+					color: #e44c65;
 					display: block;
 					font-weight: 300;
 					height: 44px;
@@ -3931,7 +3934,7 @@ input, select, textarea {
 
 					#titleBar .toggle:before {
 						background: #e44c65;
-						color: rgba(255, 255, 255, 0.5);
+						color: #e44c65;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
@@ -3972,7 +3975,7 @@ input, select, textarea {
 				#navPanel .link {
 					border: 0;
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
-					color: rgba(255, 255, 255, 0.75);
+					color:#e44c65;
 					display: block;
 					height: 3em;
 					line-height: 3em;
